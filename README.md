@@ -1,2 +1,2 @@
-# Maria-Lo
-Atividades realizadas na aula
+# Matematica-II-3C
+Repositório das aulas de Matemática II.

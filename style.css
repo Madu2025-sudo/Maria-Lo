@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+:root {
+    --cor-de-fundo: #df70d5be;
+    --verde:#6FFF57;
+    --branco: #000000;
+    --botao-ativo: #6c62e2;
+    --botao-inativo:rgba(255, 255, 255, 0.5);
+    --texto-fundo: rgba(58, 55, 94, 0.5);
+ }
+ body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco);
+    font-family: 'lobster two';
+ }
+.conteudo-principal{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   max-width: 1200px;
+   width: 100%;
+   margin: 0 auto;
+}
+.titulo-principal{
+   text-align: left;
+   width:100%;
+   font-size: 32px;
+}
+,.titulo-principal span{
+   color: #000000;
+}
+.botao{
+   background-color: var(--botao-inativo);
+   color:var(--branco);
+   display: flex;
+   justify-content: center;
+   padding: 1em;
+   font-size: 18px;
+   align-items: center;
+   width:100%;
+   border-bottom:4px solid var(--botao-inativo);
+   border-left: 2px solid var(--botao-ativo);
+   border-right:2px solid var(--botao-ativo);
+}
